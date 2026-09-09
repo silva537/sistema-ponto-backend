@@ -1,0 +1,13 @@
+{
+  "name": "sistema-ponto-backend",
+  "version": "1.0.0",
+  "description": "Back-end para o sistema de ponto",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
