@@ -16,14 +16,6 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
-const express = require('express');
-const cors = require('cors');
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-const PORT = process.env.PORT || 3000;
 
 // Banco de dados temporário em memória (depois podemos plugar um banco real se precisar)
 let registrosPonto = [];
